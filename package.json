@@ -8,7 +8,8 @@
     "build": "tsc src/server.ts",
     "start:build": "node src/server.js",
     "lint": "eslint src --ext .ts --fix",
-    "knex": "node --loader tsx ./node_modules/.bin/knex"
+    "knex": "node --loader tsx ./node_modules/.bin/knex",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +26,10 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
     "@types/node": "^20.4.4",
+    "@types/supertest": "^2.0.12",
     "eslint": "^8.45.0",
-    "tsx": "^3.12.7"
+    "supertest": "^6.3.3",
+    "tsx": "^3.12.7",
+    "vitest": "^0.33.0"
   }
 }

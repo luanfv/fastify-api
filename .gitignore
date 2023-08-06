@@ -1,4 +1,4 @@
 node_modules
 src/server.js
-db/app.db
+db/*.db
 .env
